@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+.parent-1 > *{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.parent-1 > *:first-child {
+    background-color: blue;
+}
+
+.parent-1 >  *:first-child + *{
+    background-color: white;
+}
+
+.parent-1, .parent-2{
+    width: 100%;
+    min-height: 500px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.parent-1 > *:first-child ~ .potomek{
+    background-color: yellow;
+}
+
+.potomek:hover{
+    background-color: orange !important;
+}
+div:has(.potomek){
+    background-color: cornflowerblue
+}
+.parent-2::before{
+    content: "";
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    display: block;
+}

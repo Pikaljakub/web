@@ -1,0 +1,22 @@
+body {
+    background-color: aqua;
+    line-height: 200%; 
+    font-size: 28px;  
+}
+
+p{
+    color: black;
+}
+h1{
+    color: black;
+    padding: 1em 1em 1em 1em;
+    display: flex;  
+    justify-content: center;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+}
+.obrazek{
+    display:block;
+    margin:auto;
+}

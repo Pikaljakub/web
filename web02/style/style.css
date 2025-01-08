@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    background-color: white;
+    margin: auto;
+}
+
+.card{
+    max-width: 30%;
+}
+.card img{
+    width: 100%;
+}
+.card-content{
+    text-align: center;
+    margin: auto;
+}
+
+.card-content p{
+    font-size: 1rem;
+}
