@@ -1,0 +1,37 @@
+img {
+    display: block;
+    margin: 0 auto;
+  }
+
+.nadpis,.nadpis1,.nadpis2,.nadpis3,.nadpis4,.nadpis5,.nadpis6,.nadpis7   {
+    padding-left: 30px;
+    font-size: 25px;
+    color: red;
+}
+.podnadpis,.podnadpis1,.podnadpis2,.podnadpis3{
+    padding-left: 30px;
+    font-size: 17px;
+}
+
+.text,.text1,.text2,.text3,.text4,.text5,.text6,.text7,.text8 {
+    position: relative;
+    padding-left: 50px;
+    font-size: 17px;
+  }
+
+.text p, .text1 p, .text2 p,.text3 p,.text4 p,.text5 p,.text6 p,.text7 p,.text8 p {
+    position: relative;
+    padding-left: 20px;
+}
+  
+.text  p::before, .text1 p::before, .text2 p::before,.text3 p::before,.text4 p::before,.text5 p::before,.text6 p::before,.text7 ::before,.text8 ::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #000;
+  }
